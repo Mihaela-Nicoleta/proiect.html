@@ -1,0 +1,115 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar {
+display:flex;
+height: 90px;
+width: 1340px;
+overflow: hidden;
+background-color: #030e4e;
+font-family: Arial;
+padding:0 60px;
+position:fixed;
+justify-content: space-between;
+align-items: center;
+z-index:1000;
+}
+.itschool-logo {
+    width: 164px;
+    height: 60px;
+    margin: 350px;
+    margin-left:15px;
+}
+.navbar-logo {
+display:flex;
+margin-left: 20px;
+}
+
+.navbar-logo img{
+
+    display:block;
+
+}
+.navbar-container {
+display:flex;
+align-items: center;
+justify-content: flex-end;
+
+}
+
+.navbar a {
+display:flex;
+align-items: flex-end;
+  float: left;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+display:inline;
+flex-direction: row-reverse;
+float: right;
+overflow: hidden;
+color: rgb(255, 255, 255);
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 8px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  margin-top: 6px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: #030e4e;
+color: rgb(231, 149, 56);
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #030e4e;
+  color:#030e4e;;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #030e4e;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.contact-container{
+display:inline;
+flex-direction: row-reverse;
+}

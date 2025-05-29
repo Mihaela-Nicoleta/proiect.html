@@ -1,0 +1,134 @@
+:root {
+    --blue-color: #15154e;
+    --white-color:#ffffff;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+.image {
+    display: flex;
+    width: 150px;
+    height: 75px;
+    margin-left: 100px;
+    padding-top: 18px;
+}
+.navbar-container {
+    background-color: var(--blue-color);
+    height: 300px;
+    text-decoration: none;
+}
+.itschool {
+    width: 120px;
+    height: 120px;
+    margin: 50px;
+}
+    
+.nav-select-bar {
+  display: flex;
+  text-decoration: none; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  color: var(--white-color);
+  font-size: 12px;
+
+}
+.first-button {
+    color: var(--white-color);
+    text-decoration: none;
+    justify-content: space-around;
+}
+.btn.btn-secondary.dropdown-toggle {
+    background-color: var(--blue-color);
+    color:var(--white-color);
+    border: none;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -6px;
+}
+.dropdown-menu {
+    background-color: var(--blue-color); ;
+   margin-top: -5px;
+}
+.dropdown-item{
+    background-color:var(--blue-color);
+    font-size: 12px;
+    
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: var(--white-color);
+}
+.trainers-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.card {
+  display: flex;
+}
+.trainer-profile {
+  border: 1px solid #bebbbb;
+  padding: 3px;
+  border-radius: 6px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.razvan{
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;   
+   
+}
+.trainer-name {
+    display: flex;
+    position:absolute;
+    bottom: -30px;
+    background: #15154e;
+    opacity: 0.9;
+    color: #e8ad3f;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.trainer-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ position: relative;
+ margin-top: 20px;
+ margin-bottom: 4px;
+ width: 100%;
+
+}
+.p-info {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.footer {
+  background-color: var(--blue-color);
+  display: flex;
+  justify-content: center;
+}
+.footer-info {
+  text-align: center;
+  color: aliceblue;
+   font-size: 12px;
+   margin-top: 20px;
+}
